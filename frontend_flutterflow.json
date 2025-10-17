@@ -1,0 +1,15 @@
+{
+  "project_name":"MGNREGA Tracker - FlutterFlow (English+Hindi Mix)",
+  "screens":[
+    {"name":"Login","labels":{"role":"Role (भूमिका)","mobile":"Mobile Number (मोबाइल नंबर)","send_otp":"Send OTP (OTP भेजें)","verify":"Verify & Login (सत्यापित करें)"}},
+    {"name":"Dashboard","labels":{"total_employees":"Total Employees (कुल कर्मचारी)","total_hours":"Total Hours (कुल घंटे)","pending_payments":"Pending Payments (बकाया भुगतान)"}},
+    {"name":"EmployeeList","labels":{"title":"Employee List (कर्मचारी सूची)","search":"Search (खोजें)"}},
+    {"name":"EmployeeDetail","labels":{"job_card":"Job Card (जॉब कार्ड)","work_history":"Work History (काम का इतिहास)"}},
+    {"name":"WorkEntry","labels":{"site":"Site (साइट)","work_type":"Work Type (काम का प्रकार)","hours":"Hours (घंटे)","upload_photo":"Upload Photo (फोटो अपलोड)"}},
+    {"name":"Payment","labels":{"payment_update":"Payment Update (भुगतान अपडेट)","bank_txn":"Bank Txn ID (बैंक ट्रांज़ैक्शन ID)"}},
+    {"name":"Reports","labels":{"export":"Export CSV/PDF (एक्सपोर्ट)","charts":"Charts (चार्ट)"}},
+    {"name":"Notifications","labels":{"notifications":"Notifications (सूचनाएं)"}}
+  ],
+  "api_connections":{"base_url":"https://<YOUR_BACKEND_URL>","endpoints":["/api/login","/api/employees","/api/work","/api/payments","/api/reports","/api/notifications"]},
+  "notes":"Import this JSON into FlutterFlow and then update API base_url and Firebase config."
+}
